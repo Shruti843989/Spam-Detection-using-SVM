@@ -1,10 +1,19 @@
- Spam-Detection-using-SVM
-This project detects spam messages using Support Vector Machine (SVM). It trains the model on labeled SMS messages and can classify new messages as spam or ham.
-**Technologies Used:**
-Python
-Scikit-learn
-Pandas
-NumPy
-**Machine Learning Algorithm**
-Support Vector Machine (SVM)
+# Spam Detection using SVM
 
+A machine learning project that classifies SMS messages as spam or ham using Support Vector Machine (SVM).
+
+## Technologies Used
+Python, Scikit-learn, Pandas, NumPy, Streamlit
+
+## Notebooks
+- `Spam_detection_using_SVM.ipynb` — Baseline model
+- `Spam_detection/Spam_detection_using_SVM.ipynb` — Improved model (multi-model comparison, meta features, cross-validation)
+
+## Run the UI
+```bash
+pip install -r streamlit/requirements.txt
+streamlit run streamlit/app.py
+```
+
+## Algorithm
+Support Vector Machine (SVM)
